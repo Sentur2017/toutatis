@@ -14,7 +14,7 @@ import pycountry
 def getUserId(username, sessionsId):
     headers = {"User-Agent": "iphone_ua", "x-ig-app-id": "936619743392459"}
     api = requests.get(
-        f'https://i.instagram.com/api/v1/users/web_profile_info/?username={username}',
+        f'https://www.instagram.com/mevoyjj_/?hl=bg',
         headers=headers,
         cookies={'sessionid': sessionsId}
     )
